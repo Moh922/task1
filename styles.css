@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    min-height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img{
+    position: relative;
+    padding: 40px;
+    height: 92vh;
+    width: 75vw;
+    background: url(kier-in-sight--L5z8IoU9qI-unsplash.jpg);
+    margin: 0;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, rgb(237, 237, 241), #acb8ac);
+    max-width: 100%;
+    padding: 0;
+    margin-top: 6rem;
+}
+
+.logo-img{
+    width: 4rem;
+    height: 8rem;
+}
+.logo-heading{
+    margin: 2rem 1rem 2rem 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    color: #404740;
+}
+.logo-desc{
+    margin-top: 42rem;
+    text-align: center;
+}
+a{
+    color: white;
+    font-size: 1rem;
+}
+.form-page{
+    display: block;
+    
+}
+
+.heading2{
+    padding: 85px;
+    height: 12rem;
+    background-color:#eaf0ea ;
+}
+
+.h222{
+    font-size: 2rem;
+    text-overflow: none;
+}
+.p222{
+    margin-top: .5rem;
+}
+
+.form{
+    border: 1px solid #eaf9ea;
+    padding: 93px;
+    background-color: rgb(248, 248, 255);
+    height: 12rem;
+}
+
+.form-heading{
+    margin-top: -5rem;
+    font-size: 2rem;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+   
+}
+input{
+    padding: .5rem;
+    margin-top: .6rem;
+    width: 17rem;
+    border:4px solid rgb(210, 210, 223);
+    border-radius: 6px;
+    
+}
+
+input:focus{
+    outline: none;
+    border: 4px solid blue;
+    box-shadow: .1rem .1rem .1rem .1rem #bec2be ;
+}
+
+.signup{
+    margin-top: .5rem;
+    padding: 50px;
+    height: 8rem;
+    background: #eaf9ea;
+    margin-left: 0;
+    font-size: 1.5rem;
+}
+
+.btnn{
+    background-color: rgb(14, 51, 14);
+    border-style: hidden;
+    border-radius: 10px;
+    width: 15rem;
+    height: 2.5rem;
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 0%;
+    cursor: pointer;
+}
+.aa{
+    text-decoration: none;
+    color: black;
+    padding-top: 0;
+    font-size: 1.5rem;
+}
+
